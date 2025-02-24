@@ -35,7 +35,7 @@
       }
    ?>
 
-   <h4 style="margin-left:10rem; color:red;"><?php echo $msg; ?></h4>
+   <h4 style="margin-left:10rem; color:green;"><?php echo $msg; ?></h4>
    <br/><br/>
    <form action = "<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post">
       <div>
